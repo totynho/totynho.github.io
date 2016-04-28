@@ -1,20 +1,3 @@
-/*
-
-John Template
-
-AUTHOR
-http://templatebaker.com/
-
-LICENSE
-http://templatebaker.com/license/
-
-CREDITS
-https://unsplash.com/
-
-SUPPORT
-info@templatebaker.com
-
-*/
 p {
     font-family: 'Noto Sans', sans-serif;
 }
@@ -23,29 +6,29 @@ a:hover,
 a:focus {
     color: #6f9ef2;
 }
-.tb-page-container h2 {
+.cf-page-container h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
     font-size: 54px;
 }
-.tb-page-container h3 {
+.cf-page-container h3 {
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
     font-size: 22px;
 }
-.tb-underline-dark {
+.cf-underline-dark {
     width: 15%;
     height: 1px;
     background: #333333;
     display: inline-block;
 }
-.tb-underline-white {
+.cf-underline-white {
     width: 15%;
     height: 1px;
     background: #ffffff;
     display: inline-block;
 }
-.tb-page-container {
+.cf-page-container {
     padding: 100px 0;
 }
 .navbar-brand {
@@ -149,16 +132,16 @@ a:focus {
 /*****************************/
 /***** HEADER *****/
 /*****************************/
-.tb-header-container h1 {
+.cf-header-container h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
     font-size: 54px;
 }
-.tb-header-container p {
+.cf-header-container p {
     font-size: 28px;
     font-weight: 200;
 }
-.tb-header-container {
+.cf-header-container {
     background-image: url(../img/foto-cf.jpg);
     background-attachment: scroll;
     background-position: center center;
@@ -174,13 +157,13 @@ a:focus {
 /*****************************/
 /***** SKILLS *****/
 /*****************************/
-.tb-skills-container {
+.cf-skills-container {
     padding-top: 60px;
 }
-.tb-skills-container h4 {
+.cf-skills-container h4 {
     padding-top: 20px;
 }
-.tb-icon-skills i {
+.cf-icon-skills i {
     background: #ffffff;
     font-size: 50px;
     color: #6f9ef2;
@@ -195,16 +178,16 @@ a:focus {
 /*****************************/
 /***** PORTFOLIO *****/
 /*****************************/
-.tb-portfolio-container {
+.cf-portfolio-container {
     background-color: #f1f1f1;
 }
-.tb-thumb-box {
+.cf-thumb-box {
     border-radius: 4px;
     border-bottom: 2px solid #d9d9d9;
     margin: 0;
     padding: 0;
 }
-.tb-img-responsive {
+.cf-img-responsive {
     border-radius: 4px 4px 0 0;
     display: block;
     height: auto;
@@ -223,23 +206,23 @@ a:focus {
 /*****************************/
 /***** ABOUT *****/
 /*****************************/
-.tb-about-container {
+.cf-about-container {
     padding-top: 40px;
 }
-.tb-about-container img {
+.cf-about-container img {
     padding-bottom: 50px;
 }
-.tb-about-container h5 {
+.cf-about-container h5 {
     padding-bottom: 20px;
 }
-.tb-about-container h4 {
+.cf-about-container h4 {
     padding: 20px 0 5px 0;
     text-transform: uppercase;
 }
-.tb-icon-about {
+.cf-icon-about {
     padding-bottom: 80px;
 }
-.tb-icon-about i {
+.cf-icon-about i {
     background: #6f9ef2;
     font-size: 25px;
     color: #ffffff;
@@ -254,7 +237,7 @@ a:focus {
 /***** HIRE *****/
 /*****************************/
 
-.tb-hire-container {
+.cf-hire-container {
     background-image: url(../img/fundo-padrao.jpg);
     background-attachment: scroll;
     background-position: center center;
@@ -278,16 +261,16 @@ a:focus {
 /***** CONTACT *****/
 /*****************************/
 
-.tb-touch-body {
+.cf-touch-body {
     padding-top: 40px;
 }
-.tb-touch-body-pt>li {
+.cf-touch-body-pt>li {
     padding: 0 40px;
 }
-.tb-social-icons {
+.cf-social-icons {
     padding-top: 20px;
 }
-.tb-social-icons a {
+.cf-social-icons a {
     color: #333333;
     font-size: 46px;
 }
@@ -306,7 +289,7 @@ footer {
 footer a {
     color: #aaa;
 }
-footer .tb-copyright {
+footer .cf-copyright {
     border-left: 1px solid #aaaaaa;
     padding: 0 10px;
 }
@@ -314,7 +297,7 @@ footer .tb-copyright {
 /*****************************/
 /***** BUTTONS *****/
 /*****************************/
-.tb-btn-bb {
+.cf-btn-bb {
     padding: 30px 30px !important;
     margin: 0 !important;
     line-height: 10px !important;
@@ -330,11 +313,11 @@ footer .tb-copyright {
     transition: all .3s;
     font-weight: 400;
 }
-.tb-btn-bb:hover,
-.tb-btn-bb:focus,
-.tb-btn-bb:active,
-.tb-btn-bb.active,
-.open .dropdown-toggle.tb-btn-bb {
+.cf-btn-bb:hover,
+.cf-btn-bb:focus,
+.cf-btn-bb:active,
+.cf-btn-bb.active,
+.open .dropdown-toggle.cf-btn-bb {
     border-color: #6f9ef2;
     color: #fff !important;
     background-color: #6f9ef2 !important;
@@ -343,26 +326,26 @@ footer .tb-copyright {
     transition: all .3s;
     font-weight: 400;
 }
-.tb-btn-bb:active,
-.tb-btn-bb.active,
-.open .dropdown-toggle.tb-btn-bb {
+.cf-btn-bb:active,
+.cf-btn-bb.active,
+.open .dropdown-toggle.cf-btn-bb {
     background-image: none;
 }
-.tb-btn-bb.disabled,
-.tb-btn-bb[disabled],
-fieldset[disabled] .tb-btn-bb,
-.tb-btn-bb.disabled:hover,
-.tb-btn-bb[disabled]:hover,
-fieldset[disabled] .tb-btn-bb:hover,
-.tb-btn-bb.disabled:focus,
-.tb-btn-bb[disabled]:focus,
-fieldset[disabled] .tb-btn-bb:focus,
-.tb-btn-bb.disabled:active,
-.tb-btn-bb[disabled]:active,
-fieldset[disabled] .tb-btn-bb:active,
-.tb-btn-bb.disabled.active,
-.tb-btn-bb[disabled].active,
-fieldset[disabled] .tb-btn-bb.active {
+.cf-btn-bb.disabled,
+.cf-btn-bb[disabled],
+fieldset[disabled] .cf-btn-bb,
+.cf-btn-bb.disabled:hover,
+.cf-btn-bb[disabled]:hover,
+fieldset[disabled] .cf-btn-bb:hover,
+.cf-btn-bb.disabled:focus,
+.cf-btn-bb[disabled]:focus,
+fieldset[disabled] .cf-btn-bb:focus,
+.cf-btn-bb.disabled:active,
+.cf-btn-bb[disabled]:active,
+fieldset[disabled] .cf-btn-bb:active,
+.cf-btn-bb.disabled.active,
+.cf-btn-bb[disabled].active,
+fieldset[disabled] .cf-btn-bb.active {
     border-color: #6f9ef2;
     background-color: #6f9ef2;
 }
